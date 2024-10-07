@@ -4,7 +4,7 @@ import time
 api_key = 'AIzaSyDiy0-4q4ERMHFeJu5EU5QK4yPIO2g5yDa'
 url = 'https://maps.googleapis.com/maps/api/place/textsearch/json'
 # Read queries from the file
-with open('/Users/macbookpro/Desktop/DISSERTATION/CODES/querryLONDON.txt', 'r') as file:
+with open('/Users/macbookpro/Desktop/CODES/querryLONDON.txt', 'r') as file:
     queries = file.read().splitlines()
 # Create a list to store all the restaurant data
 all_restaurant_data = []
